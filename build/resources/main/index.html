@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <button onclick="timeOutHref('http://www.google.com', 1000)">go to google</button>
+    <script>
+        var timeOutHref = function (url, time) {
+
+            var params = [
+                'height='+screen.height,
+                'width='+screen.width,
+                'fullscreen=yes' // only works in IE, but here for completeness
+            ].join(',');
+            // and any other options from
+            // https://developer.mozilla.org/en/DOM/window.open
+
+            setTimeout(() => window.open(url, 'popup_window', params).moveTo(0,0), time);
+        }
+    </script>
+</body>
+</html>

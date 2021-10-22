@@ -1,5 +1,6 @@
 package dev.valium;
 
+import dev.valium.player.Player;
 import dev.valium.translator.English;
 import dev.valium.translator.Korean;
 import dev.valium.translator.Language;
@@ -13,8 +14,9 @@ import java.util.stream.Stream;
 @Slf4j
 public class Main {
     public static void main(String[] args) {
+        Player player = new Player(Player.MediaType.MUSIC);
 
-
+        player.play();
     }
 
     private static void lang() {

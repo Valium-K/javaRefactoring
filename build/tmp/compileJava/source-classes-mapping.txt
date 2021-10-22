@@ -6,5 +6,10 @@ dev/valium/translator/Language.java
  dev.valium.translator.Language
 dev/valium/translator/LanguageType.java
  dev.valium.translator.LanguageType
+dev/valium/player/Player.java
+ dev.valium.player.Player
+ dev.valium.player.Player$MediaType
+ dev.valium.player.Player$MediaType$1
+ dev.valium.player.Player$MediaType$2
 dev/valium/Main.java
  dev.valium.Main
