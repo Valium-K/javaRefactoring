@@ -17,6 +17,9 @@ public class Main {
         Player player = new Player(Player.MediaType.MUSIC);
 
         player.play();
+
+
+        String[] s = "test1 test2 test3".split(" ");
     }
 
     private static void lang() {
